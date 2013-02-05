@@ -1,16 +1,16 @@
 {
-  "name": "Holder",
-  "version": "1.9.0",
-  "description": "Holder uses the canvas element and the data URI scheme to render image placeholders entirely in browser.",
+  "name": "HHHHold",
+  "version": "1.0.0",
+  "description": "HHHHold renders hhhhold.com images into the browser, allowing same URLs without needing random queries in the template.",
   "keywords": [ "images", "placeholders", "client-side", "canvas", "generation", "development" ],
   "main": "holder.js",
-  "homepage": "https://github.com/imsky/holder",
+  "homepage": "https://github.com/ThisIsJohnBrown/hhhhold-js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/imsky/holder.git"
+    "url": "git://github.com/git@github.com:ThisIsJohnBrown/hhhhold-js.git"
   },
   "bugs": {
-    "url" : "https://github.com/imsky/holder/issues"
+    "url" : "https://github.com/git@github.com:ThisIsJohnBrown/hhhhold-js/issues"
   },
   "license": "Apache"
 }
