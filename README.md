@@ -1,7 +1,7 @@
 HHHHold
 ======
 
-Feel the insanity of user-generated content in your project by putting simple hhhhold! URLs in your code.
+Feel the insanity of user-generated content in your project by putting simple [hhhhold!](http://hhhhold.com) URLs in your code.
 
 Forked from the [holder.js](https://github.com/imsky/holder) repo.
 
