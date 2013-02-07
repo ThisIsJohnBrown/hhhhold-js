@@ -159,9 +159,9 @@ var ratio = dpr / bsr;
 var fluid_images = [];
 
 var settings = {
-	domain: "holder.js",
+	domain: "hhhhold.js",
 	images: "img",
-	bgnodes: ".holderjs",
+	bgnodes: ".hhhholdjs",
 	themes: {
 		"gray": {
 			background: "#eee",
@@ -179,7 +179,7 @@ var settings = {
 			size: 12
 		}
 	},
-	stylesheet: ".holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}"
+	stylesheet: ".hhhholdjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}"
 };
 
 
@@ -335,10 +335,10 @@ app.run = function (o) {
 
 	for (i = 0, l = imageNodes.length; i < l; i++) images.push(imageNodes[i]);
 
-	var holdercss = document.getElementById("holderjs-style");
+	var holdercss = document.getElementById("hhhholdjs-style");
 	if (!holdercss) {
 		holdercss = document.createElement("style");
-		holdercss.setAttribute("id", "holderjs-style");
+		holdercss.setAttribute("id", "hhhholdjs-style");
 		holdercss.type = "text/css";
 		document.getElementsByTagName("head")[0].appendChild(holdercss);
 	}
@@ -386,7 +386,7 @@ app.run = function (o) {
 			var holder = parse_flags(src.substr(src.lastIndexOf(options.domain) + options.domain.length + 1)
 				.split("/"), options);
 			if (holder) {
-				holder.url = src.split('holder.js/')[1]
+				holder.url = src.split('hhhhold.js/')[1]
 				if (holder.fluid) {
 					fluid(images[i], holder, src);
 				} else {
